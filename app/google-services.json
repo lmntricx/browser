@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "451519420148",
+    "project_id": "oasis-alpha",
+    "storage_bucket": "oasis-alpha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451519420148:android:6809c161f67a436bf970a1",
+        "android_client_info": {
+          "package_name": "com.finitegames.oasisAlpha"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQG1Osh7gm3LCoN1doBVCvR9TpxovHXAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

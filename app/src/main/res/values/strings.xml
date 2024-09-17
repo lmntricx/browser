@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Oasis Alpha</string>
+    <string name="textview">OASIS</string>
+    <string name="error">Connection error please check if you are connected to the internet</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_reload">Reload</string>
+    <string name="menu_prev">Back</string>
+    <string name="menu_tools">Tools</string>
+    <string name="exit_app">Close</string>
+    <string name="inc_message">oasis.finitegames.co.za</string>
+</resources>

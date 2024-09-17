@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/material_emphasis_medium"
+            android:fontFamily="@font/alata"
+            android:text="Login"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="HardcodedText">
+
+        </TextView>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputUserName"
+            style="@style/Platform.MaterialComponents.Light"
+            android:layout_marginTop="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="40sp">
+            <EditText
+                android:id="@+id/editTextUserName"
+                style="@style/Theme.MaterialComponents.Light"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textNoSuggestions"
+                android:background="@color/white"
+                android:maxLines="1"
+                android:hint="UserName"
+                android:importantForAutofill="no"
+                tools:ignore="HardcodedText" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputPassword"
+            style="@style/Platform.MaterialComponents.Light"
+            android:layout_marginTop="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="40sp">
+            <EditText
+                android:id="@+id/editTextPassword"
+                style="@style/Theme.MaterialComponents.Light"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textNoSuggestions"
+                android:background="@color/white"
+                android:maxLines="1"
+                android:hint="Password"
+                android:importantForAutofill="no"
+                tools:ignore="HardcodedText,TextFields" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/game_register"
+            android:layout_width="120dp"
+            android:layout_height="55dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="15px"
+            android:text="Login"
+            tools:ignore="HardcodedText,PxUsage,RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/game_register_view"
+            android:layout_marginTop="38px"
+            android:layout_marginBottom="15px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="don't have an account? Sign Up"
+            android:textSize="12dp"
+            android:textColor="#666"
+            android:textStyle="bold"
+            android:textAlignment="textEnd"
+            tools:ignore="HardcodedText,PxUsage,SpUsage" />
+
+    </LinearLayout>
+
+</RelativeLayout>
